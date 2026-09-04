@@ -1,0 +1,17 @@
+{
+  "name": "langgraph",
+  "owner": "langchain-ai",
+  "url": "https://github.com/langchain-ai/langgraph",
+  "category": "orchestration",
+  "description": "Graph-based orchestration framework for stateful LLM and agent workflows.",
+  "language": [],
+  "tags": [
+    "ai-technology",
+    "reference"
+  ],
+  "observedPatterns": [
+    "human-gated-agent-workflow"
+  ],
+  "agentsOsRelevance": "Reference for understanding orchestration patterns in AI-related systems.",
+  "reviewStatus": "source-linked"
+}

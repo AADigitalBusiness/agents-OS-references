@@ -1,0 +1,17 @@
+{
+  "name": "SWE-agent",
+  "owner": "SWE-agent",
+  "url": "https://github.com/SWE-agent/SWE-agent",
+  "category": "software-factory",
+  "description": "Research-oriented software engineering agent pattern for solving GitHub issues with language models.",
+  "language": [],
+  "tags": [
+    "ai-technology",
+    "reference"
+  ],
+  "observedPatterns": [
+    "human-gated-agent-workflow"
+  ],
+  "agentsOsRelevance": "Reference for understanding software-factory patterns in AI-related systems.",
+  "reviewStatus": "source-linked"
+}

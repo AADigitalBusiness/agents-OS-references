@@ -1,0 +1,17 @@
+{
+  "name": "cline",
+  "owner": "cline",
+  "url": "https://github.com/cline/cline",
+  "category": "developer-tooling",
+  "description": "AI coding assistant that operates inside the developer environment and can modify project files.",
+  "language": [],
+  "tags": [
+    "ai-technology",
+    "reference"
+  ],
+  "observedPatterns": [
+    "human-gated-agent-workflow"
+  ],
+  "agentsOsRelevance": "Reference for understanding developer-tooling patterns in AI-related systems.",
+  "reviewStatus": "source-linked"
+}

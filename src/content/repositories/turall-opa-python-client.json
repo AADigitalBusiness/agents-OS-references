@@ -1,0 +1,17 @@
+{
+  "name": "OPA-python-client",
+  "owner": "Turall",
+  "url": "https://github.com/Turall/OPA-python-client",
+  "category": "governance",
+  "description": "Python client for Open Policy Agent integration patterns.",
+  "language": [],
+  "tags": [
+    "ai-technology",
+    "reference"
+  ],
+  "observedPatterns": [
+    "human-gated-agent-workflow"
+  ],
+  "agentsOsRelevance": "Reference for understanding governance patterns in AI-related systems.",
+  "reviewStatus": "source-linked"
+}

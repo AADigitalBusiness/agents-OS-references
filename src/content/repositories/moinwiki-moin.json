@@ -1,0 +1,17 @@
+{
+  "name": "moin",
+  "owner": "moinwiki",
+  "url": "https://github.com/moinwiki/moin",
+  "category": "other",
+  "description": "Python wiki engine relevant as a reference for knowledge organization and documentation structure.",
+  "language": [],
+  "tags": [
+    "ai-technology",
+    "reference"
+  ],
+  "observedPatterns": [
+    "git-native-content-system"
+  ],
+  "agentsOsRelevance": "Reference for understanding other patterns in AI-related systems.",
+  "reviewStatus": "source-linked"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "tinydb",
+  "owner": "msiemens",
+  "url": "https://github.com/msiemens/tinydb",
+  "category": "data-infrastructure",
+  "description": "Small document-oriented Python database for simple local persistence and prototypes.",
+  "language": [],
+  "tags": [
+    "ai-technology",
+    "reference"
+  ],
+  "observedPatterns": [
+    "git-native-content-system"
+  ],
+  "agentsOsRelevance": "Reference for understanding data-infrastructure patterns in AI-related systems.",
+  "reviewStatus": "source-linked"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "open-seo",
+  "owner": "aavendano",
+  "url": "https://github.com/aavendano/open-seo",
+  "category": "developer-tooling",
+  "description": "SEO inspection and optimization tool explored as part of AI-assisted content operations.",
+  "language": [],
+  "tags": [
+    "ai-technology",
+    "reference"
+  ],
+  "observedPatterns": [
+    "git-native-content-system"
+  ],
+  "agentsOsRelevance": "Reference for understanding developer-tooling patterns in AI-related systems.",
+  "reviewStatus": "source-linked"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "OpenHands",
+  "owner": "All-Hands-AI",
+  "url": "https://github.com/All-Hands-AI/OpenHands",
+  "category": "software-factory",
+  "description": "Open-source coding agent platform for delegating software development tasks.",
+  "language": [],
+  "tags": [
+    "ai-technology",
+    "reference"
+  ],
+  "observedPatterns": [
+    "human-gated-agent-workflow"
+  ],
+  "agentsOsRelevance": "Reference for understanding software-factory patterns in AI-related systems.",
+  "reviewStatus": "source-linked"
+}

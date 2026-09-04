@@ -1,0 +1,17 @@
+{
+  "name": "keystatic",
+  "owner": "Thinkmill",
+  "url": "https://github.com/Thinkmill/keystatic",
+  "category": "other",
+  "description": "Git-based CMS for structured content stored in Markdown, YAML, JSON, or related files.",
+  "language": [],
+  "tags": [
+    "ai-technology",
+    "reference"
+  ],
+  "observedPatterns": [
+    "git-native-content-system"
+  ],
+  "agentsOsRelevance": "Reference for understanding other patterns in AI-related systems.",
+  "reviewStatus": "source-linked"
+}
