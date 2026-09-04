@@ -1,0 +1,12 @@
+{
+  "name": "astro",
+  "owner": "withastro",
+  "url": "https://github.com/withastro/astro",
+  "category": "frontend",
+  "description": "Static-first web framework for content-driven websites and applications.",
+  "language": ["TypeScript", "JavaScript"],
+  "tags": ["static-site", "markdown", "content-collections"],
+  "observedPatterns": ["static-knowledge-base"],
+  "agentsOsRelevance": "Good fit for the public documentation and reference layer, not for normative governance execution.",
+  "reviewStatus": "source-linked"
+}
