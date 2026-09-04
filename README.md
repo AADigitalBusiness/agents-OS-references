@@ -44,17 +44,22 @@ Primary collections:
 ## Repository Structure
 
 ```text
+src/content.config.ts
 src/content/
+  docs/
   blog/
   glossary/
   technologies/
   repositories/
   patterns/
-docs/
-  stack.md
-  content-model.md
+src/pages/
+  blog/
+  glossary/
+  technologies/
+  repositories/
+  patterns/
 ```
 
 ## Status
 
-Initial architecture scaffold. The next step is to add the Astro/Starlight application files and seed the first reference entries.
+Initial architecture scaffold. The next step is to add CI validation, deployment, and the first batch of AI technology references.
