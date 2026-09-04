@@ -1,0 +1,38 @@
+---
+import { getCollection } from 'astro:content';
+
+const entries = await getCollection('technologies');
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Technologies | Agents-OS References</title>
+  </head>
+  <body>
+    <main>
+      <h1>Technologies</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Category</th>
+            <th>Fit</th>
+            <th>Evidence</th>
+          </tr>
+        </thead>
+        <tbody>
+          {entries.map((entry) => (
+            <tr>
+              <td><a href={`/technologies/${entry.id}/`}>{entry.data.title}</a></td>
+              <td>{entry.data.category}</td>
+              <td>{entry.data.agentsOsFit}</td>
+              <td>{entry.data.evidence}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </main>
+  </body>
+</html>
