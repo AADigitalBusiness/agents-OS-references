@@ -5,13 +5,27 @@ export default defineConfig({
   site: 'https://aadigitalbusiness.github.io/agents-OS-references',
   integrations: [
     starlight({
-      title: 'Agents-OS References',
-      description: 'Reference knowledge base for AI technology patterns.',
+      title: 'AI Technology References',
+      description: 'Practical guides, tutorials, glossary, and repository profiles for learning modern AI technology.',
       social: {
-        github: 'https://github.com/AADigitalBusiness/agents-OS-references',
+        github: 'https://github.com/aavendano/agents-OS-references',
       },
       sidebar: [
         { label: 'Start Here', slug: 'index' },
+        {
+          label: 'Guides',
+          items: [
+            { label: 'How to Read an AI Stack', slug: 'guides/read-ai-technology-stack' },
+            { label: 'AI Technology Map', slug: 'guides/ai-technology-map' },
+          ],
+        },
+        {
+          label: 'Tutorials',
+          items: [
+            { label: 'Choose an Agent Framework', slug: 'tutorials/choose-agent-framework' },
+          ],
+        },
+        { label: 'SEO Editorial Plan', slug: 'seo-editorial-plan' },
         { label: 'Stack', slug: 'stack' },
         { label: 'Content Model', slug: 'content-model' },
         { label: 'Blog', link: '/blog/' },
