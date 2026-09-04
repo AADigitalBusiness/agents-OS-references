@@ -1,0 +1,27 @@
+---
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('patterns');
+  return entries.map((entry) => ({ params: { slug: entry.id }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{entry.data.title} | Agents-OS References</title>
+  </head>
+  <body>
+    <main>
+      <p><a href="/patterns/">Patterns</a></p>
+      <h1>{entry.data.title}</h1>
+      <p>{entry.data.summary}</p>
+      <Content />
+    </main>
+  </body>
+</html>
