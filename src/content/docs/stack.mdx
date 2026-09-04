@@ -1,0 +1,34 @@
+---
+title: Recommended Stack
+description: Technical stack for the Agents-OS References knowledge base.
+---
+
+## Recommendation
+
+Use **Astro + Starlight + Content Collections + Pagefind**.
+
+This stack is static-first, Git-native, inexpensive to host, easy for agents to edit, and still structured enough to support analysis pipelines.
+
+## Components
+
+| Layer | Choice | Reason |
+| --- | --- | --- |
+| Site framework | Astro | Static-first pages, Markdown/MDX support, minimal client JavaScript. |
+| Documentation shell | Starlight | Navigation, search integration, SEO, accessibility, code highlighting, and docs UX. |
+| Content database | Astro Content Collections | Typed collections for blog, glossary, technologies, repositories, and patterns. |
+| Metadata validation | TypeScript + Zod | Keeps entries machine-readable and prevents malformed records. |
+| Search | Pagefind | Static search index generated at build time, no backend required. |
+| Hosting | GitHub Pages, Cloudflare Pages, or Vercel | Simple public deployment for static output. |
+
+## Why This Fits
+
+The repository needs both narrative content and structured records. Markdown/MDX is good for human-readable analysis; JSON and frontmatter are good for machine-readable classification.
+
+Astro Content Collections support structured content sets such as blog posts and product-style records, with TypeScript type safety and schema validation. Starlight provides a documentation shell built on Astro, and Pagefind adds static search without requiring server infrastructure.
+
+## Later Extensions
+
+- Add generated comparison matrices from the repository catalog.
+- Export JSON indexes for agents and downstream analysis.
+- Add embeddings or vector search only if static search becomes insufficient.
+- Add CI validation for content schemas, links, and taxonomy drift.
