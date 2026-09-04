@@ -1,0 +1,17 @@
+{
+  "name": "mitosis",
+  "owner": "BuilderIO",
+  "url": "https://github.com/BuilderIO/mitosis",
+  "category": "frontend",
+  "description": "Component authoring framework that can compile components to multiple frontend frameworks.",
+  "language": [],
+  "tags": [
+    "ai-technology",
+    "reference"
+  ],
+  "observedPatterns": [
+    "git-native-content-system"
+  ],
+  "agentsOsRelevance": "Reference for understanding frontend patterns in AI-related systems.",
+  "reviewStatus": "source-linked"
+}

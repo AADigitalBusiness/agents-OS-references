@@ -1,0 +1,17 @@
+{
+  "name": "khoj",
+  "owner": "khoj-ai",
+  "url": "https://github.com/khoj-ai/khoj",
+  "category": "retrieval",
+  "description": "Personal AI assistant and knowledge base focused on retrieval, notes, and user context.",
+  "language": [],
+  "tags": [
+    "ai-technology",
+    "reference"
+  ],
+  "observedPatterns": [
+    "retrieval-knowledge-assistant"
+  ],
+  "agentsOsRelevance": "Reference for understanding retrieval patterns in AI-related systems.",
+  "reviewStatus": "source-linked"
+}

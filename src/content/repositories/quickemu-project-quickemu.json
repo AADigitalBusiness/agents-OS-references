@@ -1,0 +1,17 @@
+{
+  "name": "quickemu",
+  "owner": "quickemu-project",
+  "url": "https://github.com/quickemu-project/quickemu",
+  "category": "developer-tooling",
+  "description": "Developer tooling for quickly running virtual machines, useful as a reference for local execution environments.",
+  "language": [],
+  "tags": [
+    "ai-technology",
+    "reference"
+  ],
+  "observedPatterns": [
+    "human-gated-agent-workflow"
+  ],
+  "agentsOsRelevance": "Reference for understanding developer-tooling patterns in AI-related systems.",
+  "reviewStatus": "source-linked"
+}

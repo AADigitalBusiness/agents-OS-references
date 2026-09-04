@@ -1,0 +1,17 @@
+{
+  "name": "docbook",
+  "owner": "docbook",
+  "url": "https://github.com/docbook/docbook",
+  "category": "other",
+  "description": "Semantic markup vocabulary for structured technical documentation.",
+  "language": [],
+  "tags": [
+    "ai-technology",
+    "reference"
+  ],
+  "observedPatterns": [
+    "git-native-content-system"
+  ],
+  "agentsOsRelevance": "Reference for understanding other patterns in AI-related systems.",
+  "reviewStatus": "source-linked"
+}

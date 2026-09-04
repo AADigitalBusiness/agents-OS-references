@@ -1,0 +1,17 @@
+{
+  "name": "conductor",
+  "owner": "aavendano",
+  "url": "https://github.com/aavendano/conductor",
+  "category": "orchestration",
+  "description": "Repository evaluated as a possible orchestration or workflow reference for Agents-OS.",
+  "language": [],
+  "tags": [
+    "ai-technology",
+    "reference"
+  ],
+  "observedPatterns": [
+    "human-gated-agent-workflow"
+  ],
+  "agentsOsRelevance": "Reference for understanding orchestration patterns in AI-related systems.",
+  "reviewStatus": "source-linked"
+}

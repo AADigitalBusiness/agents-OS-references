@@ -1,0 +1,17 @@
+{
+  "name": "onyx",
+  "owner": "onyx-dot-app",
+  "url": "https://github.com/onyx-dot-app/onyx",
+  "category": "retrieval",
+  "description": "Knowledge assistant and enterprise search system for connecting AI answers to organizational documents.",
+  "language": [],
+  "tags": [
+    "ai-technology",
+    "reference"
+  ],
+  "observedPatterns": [
+    "retrieval-knowledge-assistant"
+  ],
+  "agentsOsRelevance": "Reference for understanding retrieval patterns in AI-related systems.",
+  "reviewStatus": "source-linked"
+}

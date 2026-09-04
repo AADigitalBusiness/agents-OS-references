@@ -1,0 +1,37 @@
+---
+title: How to Read an AI Technology Stack
+description: A practical guide to understanding AI stacks by separating models, tools, workflows, retrieval, memory, and governance.
+---
+
+An AI technology stack is easier to understand when you stop treating it as one thing.
+
+Most AI products are assembled from several layers.
+
+## The Core Layers
+
+| Layer | Main Question | Examples |
+| --- | --- | --- |
+| Model | What generates or reasons? | GPT, Claude, Mistral, local models |
+| Runtime | What runs the loop? | agent frameworks, tool callers |
+| Tools | What can the AI act on? | browser, GitHub, Slack, databases |
+| Retrieval | What knowledge can it search? | vector databases, document indexes |
+| Workflow | What process does it follow? | queues, state machines, approvals |
+| Evaluation | How do we know it worked? | tests, traces, reviews, metrics |
+| Governance | What is it allowed to do? | permissions, gates, audit logs |
+
+## Why This Matters
+
+Many beginner AI projects fail because they only choose a model. But the model is not the whole system. A reliable AI application needs boundaries, data, workflows, and evidence.
+
+## A Useful Mental Model
+
+Ask these questions when you see a new AI repository:
+
+1. Does it run agents, or does it only provide components?
+2. Does it store memory, retrieve documents, or both?
+3. Does it include workflow state?
+4. Does it support approvals or permissions?
+5. Can you inspect what happened after execution?
+6. Is it a product, a framework, a template, or an experiment?
+
+That small checklist turns a confusing repo into something you can evaluate.

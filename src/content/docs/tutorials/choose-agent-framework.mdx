@@ -1,0 +1,59 @@
+---
+title: Choosing Your First Agent Framework
+description: A practical tutorial for selecting an AI agent framework without getting trapped by hype.
+---
+
+Choosing an agent framework is not about finding the most impressive demo. It is about matching the framework to the work you need to delegate.
+
+## Step 1: Define The Work
+
+Write one sentence:
+
+> I want an AI agent to help with ____ while using ____ and producing ____ as evidence.
+
+Examples:
+
+- Fix GitHub issues while using tests and producing pull requests.
+- Answer customer questions while using documentation and producing citations.
+- Analyze supplier data while using spreadsheets and producing a report.
+
+## Step 2: Identify The Required Capabilities
+
+| Need | Required Capability |
+| --- | --- |
+| Calls external systems | Tool use |
+| Follows many steps | Workflow orchestration |
+| Searches documents | Retrieval |
+| Writes code | Sandbox and repo access |
+| Needs approval | Human gate |
+| Must be trusted | Audit trail and evaluation |
+
+## Step 3: Compare Candidates
+
+Use this scoring model:
+
+| Criterion | Question |
+| --- | --- |
+| Fit | Does it match the job? |
+| Control | Can you limit what it can do? |
+| Evidence | Can you inspect outputs and logs? |
+| Portability | Can you replace it later? |
+| Maintenance | Is the project alive and understandable? |
+
+## Step 4: Start Small
+
+Pick one narrow use case. Do not begin by replacing a whole workflow.
+
+A good first agent task has:
+
+- A clear input.
+- A clear output.
+- A test or review step.
+- A human decision point if risk is material.
+
+## Recommended First Experiments
+
+- Use LangGraph or Mastra for workflow-shaped agent experiments.
+- Use OpenHands or SWE-agent-style tools for coding automation.
+- Use Khoj or Onyx-style systems to understand retrieval and knowledge assistants.
+- Use a Git-based content stack when the first goal is documentation and learning.

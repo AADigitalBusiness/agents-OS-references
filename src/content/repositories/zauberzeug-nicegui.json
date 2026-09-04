@@ -1,0 +1,17 @@
+{
+  "name": "nicegui",
+  "owner": "zauberzeug",
+  "url": "https://github.com/zauberzeug/nicegui",
+  "category": "frontend",
+  "description": "Python framework for building web user interfaces, useful for operational tools and prototypes.",
+  "language": [],
+  "tags": [
+    "ai-technology",
+    "reference"
+  ],
+  "observedPatterns": [
+    "human-gated-agent-workflow"
+  ],
+  "agentsOsRelevance": "Reference for understanding frontend patterns in AI-related systems.",
+  "reviewStatus": "source-linked"
+}

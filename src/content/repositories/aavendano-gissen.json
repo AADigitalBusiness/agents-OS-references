@@ -1,0 +1,17 @@
+{
+  "name": "gissen",
+  "owner": "aavendano",
+  "url": "https://github.com/aavendano/gissen",
+  "category": "other",
+  "description": "Repository reviewed as a possible reference in the Agents-OS technology exploration stream.",
+  "language": [],
+  "tags": [
+    "ai-technology",
+    "reference"
+  ],
+  "observedPatterns": [
+    "git-native-content-system"
+  ],
+  "agentsOsRelevance": "Reference for understanding other patterns in AI-related systems.",
+  "reviewStatus": "source-linked"
+}

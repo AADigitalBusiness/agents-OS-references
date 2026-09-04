@@ -1,0 +1,17 @@
+{
+  "name": "mastra",
+  "owner": "mastra-ai",
+  "url": "https://github.com/mastra-ai/mastra",
+  "category": "orchestration",
+  "description": "TypeScript framework for building AI agents, workflows, and tool-using applications.",
+  "language": [],
+  "tags": [
+    "ai-technology",
+    "reference"
+  ],
+  "observedPatterns": [
+    "human-gated-agent-workflow"
+  ],
+  "agentsOsRelevance": "Reference for understanding orchestration patterns in AI-related systems.",
+  "reviewStatus": "source-linked"
+}

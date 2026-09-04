@@ -1,0 +1,17 @@
+{
+  "name": "hydrogen",
+  "owner": "Shopify",
+  "url": "https://github.com/Shopify/hydrogen",
+  "category": "frontend",
+  "description": "React-based framework for building custom Shopify storefronts.",
+  "language": [],
+  "tags": [
+    "ai-technology",
+    "reference"
+  ],
+  "observedPatterns": [
+    "git-native-content-system"
+  ],
+  "agentsOsRelevance": "Reference for understanding frontend patterns in AI-related systems.",
+  "reviewStatus": "source-linked"
+}
