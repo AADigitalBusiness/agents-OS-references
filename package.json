@@ -1,0 +1,19 @@
+{
+  "name": "agents-os-references",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build && pagefind --site dist",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/starlight": "latest",
+    "astro": "latest",
+    "pagefind": "latest"
+  },
+  "devDependencies": {
+    "typescript": "latest"
+  }
+}
