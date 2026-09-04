@@ -1,0 +1,38 @@
+---
+import { getCollection } from 'astro:content';
+
+const entries = await getCollection('repositories');
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Repositories | Agents-OS References</title>
+  </head>
+  <body>
+    <main>
+      <h1>Repositories</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>Repository</th>
+            <th>Category</th>
+            <th>Review</th>
+            <th>Relevance</th>
+          </tr>
+        </thead>
+        <tbody>
+          {entries.map((entry) => (
+            <tr>
+              <td><a href={entry.data.url}>{entry.data.owner}/{entry.data.name}</a></td>
+              <td>{entry.data.category}</td>
+              <td>{entry.data.reviewStatus}</td>
+              <td>{entry.data.agentsOsRelevance}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </main>
+  </body>
+</html>
