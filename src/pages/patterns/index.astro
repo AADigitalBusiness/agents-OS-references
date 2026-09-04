@@ -1,0 +1,25 @@
+---
+import { getCollection } from 'astro:content';
+
+const entries = await getCollection('patterns');
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Patterns | Agents-OS References</title>
+  </head>
+  <body>
+    <main>
+      <h1>Patterns</h1>
+      <ul>
+        {entries.map((entry) => (
+          <li>
+            <a href={`/patterns/${entry.id}/`}>{entry.data.title}</a>: {entry.data.summary}
+          </li>
+        ))}
+      </ul>
+    </main>
+  </body>
+</html>
