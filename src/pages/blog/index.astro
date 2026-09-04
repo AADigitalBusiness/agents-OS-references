@@ -19,7 +19,7 @@ const posts = await getCollection('blog');
         <ul>
           {posts.map((post) => (
             <li>
-              <a href={`/blog/${post.id}/`}>{post.data.title}</a>: {post.data.description}
+              <a href={`${import.meta.env.BASE_URL}blog/${post.id}/`}>{post.data.title}</a>: {post.data.description}
             </li>
           ))}
         </ul>

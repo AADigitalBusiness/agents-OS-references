@@ -16,7 +16,7 @@ const entries = await getCollection('glossary');
       <ul>
         {entries.map((entry) => (
           <li>
-            <a href={`/glossary/${entry.id}/`}>{entry.data.title}</a>: {entry.data.definition}
+            <a href={`${import.meta.env.BASE_URL}glossary/${entry.id}/`}>{entry.data.title}</a>: {entry.data.definition}
           </li>
         ))}
       </ul>

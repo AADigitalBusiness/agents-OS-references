@@ -25,7 +25,7 @@ const entries = await getCollection('technologies');
         <tbody>
           {entries.map((entry) => (
             <tr>
-              <td><a href={`/technologies/${entry.id}/`}>{entry.data.title}</a></td>
+              <td><a href={`${import.meta.env.BASE_URL}technologies/${entry.id}/`}>{entry.data.title}</a></td>
               <td>{entry.data.category}</td>
               <td>{entry.data.agentsOsFit}</td>
               <td>{entry.data.evidence}</td>

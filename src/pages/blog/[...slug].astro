@@ -18,7 +18,7 @@ const { Content } = await render(post);
   </head>
   <body>
     <main>
-      <p><a href="/blog/">Blog</a></p>
+      <p><a href={`${import.meta.env.BASE_URL}blog/`}>Blog</a></p>
       <h1>{post.data.title}</h1>
       <p>{post.data.description}</p>
       <Content />

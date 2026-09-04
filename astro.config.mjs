@@ -2,14 +2,19 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
 export default defineConfig({
-  site: 'https://aadigitalbusiness.github.io/agents-OS-references',
+  site: 'https://aadigitalbusiness.github.io',
+  base: '/agents-OS-references',
   integrations: [
     starlight({
       title: 'AI Technology References',
       description: 'Practical guides, tutorials, glossary, and repository profiles for learning modern AI technology.',
-      social: {
-        github: 'https://github.com/aavendano/agents-OS-references',
-      },
+      social: [
+        {
+          icon: 'github',
+          label: 'GitHub',
+          href: 'https://github.com/AADigitalBusiness/agents-OS-references',
+        },
+      ],
       sidebar: [
         { label: 'Start Here', slug: 'index' },
         {
@@ -28,11 +33,11 @@ export default defineConfig({
         { label: 'SEO Editorial Plan', slug: 'seo-editorial-plan' },
         { label: 'Stack', slug: 'stack' },
         { label: 'Content Model', slug: 'content-model' },
-        { label: 'Blog', link: '/blog/' },
-        { label: 'Glossary', link: '/glossary/' },
-        { label: 'Technologies', link: '/technologies/' },
-        { label: 'Repositories', link: '/repositories/' },
-        { label: 'Patterns', link: '/patterns/' },
+        { label: 'Blog', link: '/agents-OS-references/blog/' },
+        { label: 'Glossary', link: '/agents-OS-references/glossary/' },
+        { label: 'Technologies', link: '/agents-OS-references/technologies/' },
+        { label: 'Repositories', link: '/agents-OS-references/repositories/' },
+        { label: 'Patterns', link: '/agents-OS-references/patterns/' },
       ],
     }),
   ],

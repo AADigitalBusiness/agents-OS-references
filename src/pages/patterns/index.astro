@@ -16,7 +16,7 @@ const entries = await getCollection('patterns');
       <ul>
         {entries.map((entry) => (
           <li>
-            <a href={`/patterns/${entry.id}/`}>{entry.data.title}</a>: {entry.data.summary}
+            <a href={`${import.meta.env.BASE_URL}patterns/${entry.id}/`}>{entry.data.title}</a>: {entry.data.summary}
           </li>
         ))}
       </ul>

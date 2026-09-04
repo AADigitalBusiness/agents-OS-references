@@ -18,7 +18,7 @@ const { Content } = await render(entry);
   </head>
   <body>
     <main>
-      <p><a href="/glossary/">Glossary</a></p>
+      <p><a href={`${import.meta.env.BASE_URL}glossary/`}>Glossary</a></p>
       <h1>{entry.data.title}</h1>
       <p>{entry.data.definition}</p>
       <Content />

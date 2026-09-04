@@ -18,7 +18,7 @@ const { Content } = await render(entry);
   </head>
   <body>
     <main>
-      <p><a href="/patterns/">Patterns</a></p>
+      <p><a href={`${import.meta.env.BASE_URL}patterns/`}>Patterns</a></p>
       <h1>{entry.data.title}</h1>
       <p>{entry.data.summary}</p>
       <Content />
