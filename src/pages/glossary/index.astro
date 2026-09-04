@@ -1,0 +1,25 @@
+---
+import { getCollection } from 'astro:content';
+
+const entries = await getCollection('glossary');
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Glossary | Agents-OS References</title>
+  </head>
+  <body>
+    <main>
+      <h1>Glossary</h1>
+      <ul>
+        {entries.map((entry) => (
+          <li>
+            <a href={`/glossary/${entry.id}/`}>{entry.data.title}</a>: {entry.data.definition}
+          </li>
+        ))}
+      </ul>
+    </main>
+  </body>
+</html>
