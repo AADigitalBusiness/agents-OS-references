@@ -1,0 +1,50 @@
+---
+title: Content Model
+description: Collections and editorial conventions for technology references.
+---
+
+## Collections
+
+| Collection | Format | Purpose |
+| --- | --- | --- |
+| `blog` | Markdown/MDX | Research notes, comparisons, public explanations. |
+| `glossary` | Markdown/MDX | Canonical terms and definitions. |
+| `technologies` | Markdown/MDX | Technology profiles with structured metadata and analysis. |
+| `repositories` | JSON | Repo catalog for programmatic analysis. |
+| `patterns` | Markdown/MDX | Reusable patterns observed across technologies. |
+
+## Review States
+
+| State | Meaning |
+| --- | --- |
+| `candidate` | Captured but not yet reviewed. |
+| `active` | Accepted as useful current knowledge. |
+| `deprecated` | Still informative, but no longer recommended or current. |
+| `archived` | Historical reference only. |
+
+## Evidence Levels
+
+| Level | Meaning |
+| --- | --- |
+| `unverified` | Initial capture, no source review yet. |
+| `source-linked` | Supported by official docs, repository evidence, or direct source links. |
+| `tested` | Locally tested or operationally verified. |
+| `adopted` | Used in Agents-OS, Core, or a related production workflow. |
+
+## Adoption Decisions
+
+| Decision | Meaning |
+| --- | --- |
+| `adopt` | Use directly. |
+| `adapt` | Reuse a pattern behind an Agents-OS boundary. |
+| `watch` | Track, but do not commit yet. |
+| `discard` | Do not use for now; preserve reasoning. |
+
+## Editorial Rule
+
+Every technology page should separate:
+
+1. What the technology does.
+2. What pattern it demonstrates.
+3. What evidence supports the claim.
+4. How it maps, or does not map, to Agents-OS/Core.
