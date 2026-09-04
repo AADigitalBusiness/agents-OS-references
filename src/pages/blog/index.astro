@@ -1,0 +1,29 @@
+---
+import { getCollection } from 'astro:content';
+
+const posts = await getCollection('blog');
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Blog | Agents-OS References</title>
+  </head>
+  <body>
+    <main>
+      <h1>Blog</h1>
+      {posts.length === 0 ? (
+        <p>No posts published yet.</p>
+      ) : (
+        <ul>
+          {posts.map((post) => (
+            <li>
+              <a href={`/blog/${post.id}/`}>{post.data.title}</a>: {post.data.description}
+            </li>
+          ))}
+        </ul>
+      )}
+    </main>
+  </body>
+</html>
