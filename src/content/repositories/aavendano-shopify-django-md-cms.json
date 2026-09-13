@@ -1,0 +1,23 @@
+{
+  "name": "shopify-django-md-cms",
+  "owner": "aavendano",
+  "url": "https://github.com/aavendano/shopify-django-md-cms",
+  "category": "developer-tooling",
+  "description": "Django and Shopify application foundation being evaluated as a successor architecture for a Markdown- and Git-oriented content system without Wagtail as the primary CMS layer.",
+  "language": ["Python"],
+  "tags": [
+    "django",
+    "shopify",
+    "markdown",
+    "cms",
+    "flat-files",
+    "reference"
+  ],
+  "observedPatterns": [
+    "git-native-content-system",
+    "shopify-content-integration",
+    "django-content-platform"
+  ],
+  "agentsOsRelevance": "Reference for combining Django application logic with Git-oriented flat-file content and an external publication target while keeping persistence and rendering concerns separate.",
+  "reviewStatus": "source-linked"
+}
