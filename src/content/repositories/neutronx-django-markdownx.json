@@ -1,0 +1,27 @@
+{
+  "name": "django-markdownx",
+  "owner": "neutronX",
+  "url": "https://github.com/neutronX/django-markdownx",
+  "category": "developer-tooling",
+  "description": "Comprehensive Django Markdown editing plugin with live preview, Django Admin integration, drag-and-drop image uploads, and configurable image processing.",
+  "language": [
+    "Python"
+  ],
+  "tags": [
+    "django",
+    "markdown",
+    "editor",
+    "live-preview",
+    "image-upload",
+    "admin",
+    "reference"
+  ],
+  "observedPatterns": [
+    "markdown-editor",
+    "live-preview",
+    "media-upload-pipeline",
+    "admin-integration"
+  ],
+  "agentsOsRelevance": "Useful reference for the editing and preview layer around repository-backed Markdown. Especially relevant to Atlas and PLT Content for editor UX, multiple editor instances, media upload flows, and image processing, but not a flat-file persistence or Git-authoritative content solution by itself.",
+  "reviewStatus": "source-linked"
+}
