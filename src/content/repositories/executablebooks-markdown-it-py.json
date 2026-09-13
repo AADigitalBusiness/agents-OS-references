@@ -1,0 +1,21 @@
+{
+  "name": "markdown-it-py",
+  "owner": "executablebooks",
+  "url": "https://github.com/executablebooks/markdown-it-py",
+  "category": "developer-tooling",
+  "description": "Extensible CommonMark-compatible Markdown parser for Python with token-based parsing, rendering, extensions, and plugin support.",
+  "language": ["Python"],
+  "tags": [
+    "markdown",
+    "parser",
+    "commonmark",
+    "python",
+    "reference"
+  ],
+  "observedPatterns": [
+    "canonical-document-parser",
+    "token-based-content-processing"
+  ],
+  "agentsOsRelevance": "Candidate reference for structured Markdown parsing, validation, and token-level content processing in Git-native documentation systems.",
+  "reviewStatus": "source-linked"
+}
