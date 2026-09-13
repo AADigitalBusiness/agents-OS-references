@@ -1,0 +1,21 @@
+{
+  "name": "coderedcms",
+  "owner": "coderedcorp",
+  "url": "https://github.com/coderedcorp/coderedcms",
+  "category": "developer-tooling",
+  "description": "A batteries-included CMS layer built on Django and Wagtail, with reusable page types, layouts, SEO, forms, navigation, and site-management features.",
+  "language": ["Python"],
+  "tags": [
+    "django",
+    "wagtail",
+    "cms",
+    "content-architecture",
+    "reference"
+  ],
+  "observedPatterns": [
+    "modular-cms-capabilities",
+    "cms-domain-layer"
+  ],
+  "agentsOsRelevance": "Reference for modular CMS capability design above a persistence layer, including reusable content types, navigation, SEO, and configuration patterns.",
+  "reviewStatus": "source-linked"
+}
