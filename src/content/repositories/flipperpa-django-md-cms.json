@@ -1,0 +1,21 @@
+{
+  "name": "django-md-cms",
+  "owner": "FlipperPA",
+  "url": "https://github.com/FlipperPA/django-md-cms",
+  "category": "developer-tooling",
+  "description": "Flat-file Markdown CMS for Django that treats filesystem Markdown as portable, version-control-friendly site content.",
+  "language": ["Python"],
+  "tags": [
+    "django",
+    "markdown",
+    "flat-files",
+    "cms",
+    "reference"
+  ],
+  "observedPatterns": [
+    "git-native-content-system",
+    "filesystem-content-store"
+  ],
+  "agentsOsRelevance": "Reference for using flat files as authoritative content in Django and for separating portable content from database-centric CMS storage.",
+  "reviewStatus": "source-linked"
+}
