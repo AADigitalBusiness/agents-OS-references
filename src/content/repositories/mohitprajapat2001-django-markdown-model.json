@@ -1,0 +1,25 @@
+{
+  "name": "django-markdown-model",
+  "owner": "mohitprajapat2001",
+  "url": "https://github.com/mohitprajapat2001/django-markdown-model",
+  "category": "developer-tooling",
+  "description": "Small Django package that provides a custom Markdown field and an abstract model for Markdown-backed content stored in the database.",
+  "language": [
+    "Python",
+    "JavaScript"
+  ],
+  "tags": [
+    "django",
+    "markdown",
+    "model-field",
+    "content",
+    "reference"
+  ],
+  "observedPatterns": [
+    "custom-model-field",
+    "database-backed-markdown",
+    "abstract-content-model"
+  ],
+  "agentsOsRelevance": "Reference for integrating Markdown semantics into Django model fields. Its current field implementation converts Markdown to HTML during field cleaning, so it is more useful as a comparison point and anti-pattern reference than as a direct dependency for Atlas or a Git-authoritative flat-file repository design.",
+  "reviewStatus": "source-linked"
+}
