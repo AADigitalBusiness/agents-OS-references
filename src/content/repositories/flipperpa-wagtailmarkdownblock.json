@@ -1,0 +1,21 @@
+{
+  "name": "wagtailmarkdownblock",
+  "owner": "FlipperPA",
+  "url": "https://github.com/FlipperPA/wagtailmarkdownblock",
+  "category": "developer-tooling",
+  "description": "Wagtail extension that adds Markdown editing and display blocks to StreamField using a Markdown editor in the CMS interface.",
+  "language": ["Python"],
+  "tags": [
+    "wagtail",
+    "markdown",
+    "editor",
+    "streamfield",
+    "reference"
+  ],
+  "observedPatterns": [
+    "markdown-editor-integration",
+    "cms-editor-layer"
+  ],
+  "agentsOsRelevance": "Reference for Markdown editing UX as a layer separate from content persistence and repository storage.",
+  "reviewStatus": "source-linked"
+}
