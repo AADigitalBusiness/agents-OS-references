@@ -1,0 +1,21 @@
+{
+  "name": "markitdown",
+  "owner": "microsoft",
+  "url": "https://github.com/microsoft/markitdown",
+  "category": "developer-tooling",
+  "description": "Python toolkit for converting documents and other source formats into Markdown for downstream processing, indexing, and AI workflows.",
+  "language": ["Python"],
+  "tags": [
+    "markdown",
+    "document-conversion",
+    "ingestion",
+    "ai-technology",
+    "reference"
+  ],
+  "observedPatterns": [
+    "content-ingestion-pipeline",
+    "canonical-markdown-normalization"
+  ],
+  "agentsOsRelevance": "Reference for normalizing heterogeneous source documents into Markdown before indexing, validation, or repository-based content workflows.",
+  "reviewStatus": "source-linked"
+}
