@@ -1,0 +1,25 @@
+{
+  "name": "django-markdownify",
+  "owner": "erwinmatijsen",
+  "url": "https://github.com/erwinmatijsen/django-markdownify",
+  "category": "developer-tooling",
+  "description": "Django template filter that converts Markdown to sanitized HTML with configurable Markdown and sanitization settings.",
+  "language": [
+    "Python"
+  ],
+  "tags": [
+    "django",
+    "markdown",
+    "rendering",
+    "sanitization",
+    "template-filter",
+    "reference"
+  ],
+  "observedPatterns": [
+    "markdown-rendering",
+    "html-sanitization",
+    "configurable-render-profiles"
+  ],
+  "agentsOsRelevance": "Useful reference for keeping Markdown rendering and HTML sanitization separate from persistence. Its configurable rendering profiles are relevant to Atlas content tooling and to a future Django flat-file content pipeline, but it does not provide storage, model mapping, Git authority, or bidirectional synchronization.",
+  "reviewStatus": "source-linked"
+}
