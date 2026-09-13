@@ -1,0 +1,24 @@
+{
+  "name": "django-markdown-view",
+  "owner": "rgs258",
+  "url": "https://github.com/rgs258/django-markdown-view",
+  "category": "developer-tooling",
+  "description": "Django package for serving Markdown files as views using configurable loaders, templates, and Markdown extensions.",
+  "language": [
+    "Python"
+  ],
+  "tags": [
+    "django",
+    "markdown",
+    "flat-files",
+    "content",
+    "reference"
+  ],
+  "observedPatterns": [
+    "loader-abstraction",
+    "flat-file-content",
+    "markdown-rendering"
+  ],
+  "agentsOsRelevance": "Useful reference for loader abstractions and serving repository-backed Markdown through Django. Relevant to Atlas content tooling and to the design of a reusable flat-file content repository layer, but not a persistence or bidirectional sync solution by itself.",
+  "reviewStatus": "source-linked"
+}
