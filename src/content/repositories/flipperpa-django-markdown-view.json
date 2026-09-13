@@ -1,0 +1,21 @@
+{
+  "name": "django-markdown-view",
+  "owner": "FlipperPA",
+  "url": "https://github.com/FlipperPA/django-markdown-view",
+  "category": "developer-tooling",
+  "description": "Django package for locating and serving Markdown files through configurable loaders and Django views.",
+  "language": ["Python"],
+  "tags": [
+    "django",
+    "markdown",
+    "loaders",
+    "rendering",
+    "reference"
+  ],
+  "observedPatterns": [
+    "pluggable-content-loader",
+    "filesystem-content-store"
+  ],
+  "agentsOsRelevance": "Reference for decoupling Markdown file discovery from rendering through pluggable loader abstractions.",
+  "reviewStatus": "source-linked"
+}
