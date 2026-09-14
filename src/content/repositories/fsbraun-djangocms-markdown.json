@@ -1,0 +1,28 @@
+{
+  "name": "djangocms-markdown",
+  "owner": "fsbraun",
+  "url": "https://github.com/fsbraun/djangocms-markdown",
+  "category": "developer-tooling",
+  "description": "Markdown content plugin and model field for django CMS, with raw Markdown storage, HTML rendering, editor support, sanitization, and dynamic references to Django objects.",
+  "language": [
+    "Python"
+  ],
+  "tags": [
+    "django",
+    "django-cms",
+    "markdown",
+    "model-field",
+    "editor",
+    "references",
+    "reference"
+  ],
+  "observedPatterns": [
+    "markdown-model-field",
+    "dynamic-object-references",
+    "markdown-rendering",
+    "html-sanitization",
+    "editor-integration"
+  ],
+  "agentsOsRelevance": "Strong reference for integrating Markdown with Django domain objects. Particularly relevant for semantic internal references and keeping raw Markdown distinct from rendered HTML. Useful to adapt into Atlas content tooling, but its database-first persistence model does not replace a Git or flat-file authoritative repository layer.",
+  "reviewStatus": "source-linked"
+}
